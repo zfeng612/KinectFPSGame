@@ -1,0 +1,52 @@
+<scene previous_export_time="1367589588.768384" export_time="1367615124.788754" formatVersion="1.0.1" exported_by="tub82740" >
+  <nodes >
+    <node name="FPSarena2.0" >
+      <position z="-3.003550" y="-3.343328" x="-24.119034" />
+      <rotation qw="1.000000" qz="-0.000000" qy="0.000000" qx="0.000000" />
+      <scale z="5.998542" y="5.998542" x="5.998542" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity mass="1.0" lock_trans_y="False" lock_trans_x="False" damping_trans="0.03999999910593033" lock_trans_z="False" velocity_max="0.0" inertia_tensor="0.4000000059604645" lock_rot_y="False" velocity_min="0.0" anisotropic_friction="False" name="Cube.017" lock_rot_x="False" actor="False" physics_type="STATIC" damping_rot="0.10000000149011612" meshFile="Cube.017.mesh" mass_radius="1.0" ghost="False" lock_rot_z="False" friction_z="1.0" friction_y="1.0" friction_x="1.0" />
+    </node>
+    <node name="Lamp" >
+      <position z="-10.182356" y="12.317114" x="4.756151" />
+      <rotation qw="0.570948" qz="-0.272171" qy="0.755880" qx="0.169076" />
+      <scale z="1.000000" y="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light type="point" name="Lamp" shadow="true" powerScale="1.0" >
+        <position z="-10.182356" y="12.317114" x="4.756151" />
+        <lightAttenuation constant="1.0" linear="0.03333335240683057" range="5000" quadratic="0.0" />
+        <colourDiffuse g="1.0" r="1.0" b="1.0" />
+        <colourSpecular g="1.0" r="1.0" b="1.0" />
+        <colourShadow g="1.0" r="1.0" b="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position z="-4.587562" y="22.974464" x="67.546463" />
+      <rotation qw="0.723663" qz="-0.281730" qy="0.446021" qx="0.444978" />
+      <scale z="4.697155" y="4.697155" x="4.697155" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera name="Camera" fov="0.5033799435163735" projectionType="perspective" >
+        <clipping near="0.10000000149011612" farPlaneDist="100.0" far="100.0" nearPlaneDist="0.10000000149011612" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="E:\FPSarena2.0.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourDiffuse g="0.05087608844041824" r="0.05087608844041824" b="0.05087608844041824" />
+    <colourBackground g="0.05087608844041824" r="0.05087608844041824" b="0.05087608844041824" />
+    <colourAmbient g="0.0" r="0.0" b="0.0" />
+  </environment>
+</scene>
